@@ -10,9 +10,11 @@
 
 // understanding node_modules
 
-
 // depandencies -> packages and packages ki dependencies
 // devdependencies -> aise packages jo sirf development mein kaam aayenge par jab aap ban 
 //                    jayega aur deploy hob jayega tab hum use nahi kr rhe honge
 
+
+// scripts -> ubnderstanding default scripts PATH and custom scripts
+// 
 
