@@ -1,5 +1,5 @@
 // 1. arrays -> forEach, map, filter, find, indexOf
-// 2. objects(key value pairs)
+// 2. object(key value pairs)
 // 3. functions -> return
 // 4. async js 
 
@@ -26,6 +26,7 @@ let ans1 = arr1.find((val)=>{
     if(val === 2) return val;
 })
 // console.log(ans1)
+
 let ans2 = arr1.find((val)=>{
     if(val === 12) return val;
 })
@@ -37,7 +38,7 @@ let ans2 = arr1.find((val)=>{
 
 
 
-// 2. objects(key value pairs) ->
+// 2. object(key value pairs) ->
 
 let obj1 = {
     Name : "Aman",
@@ -54,9 +55,11 @@ let obj2 = {
     Age : 21
 }
 // console.log(obj2)
+
 Object.freeze(obj2)
 // console.log(obj2.Name)
 // console.log(obj2['Age'])
+
 obj2.Name = "Kartik"
 // console.log(obj2.Name)
 
